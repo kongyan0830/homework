@@ -1,0 +1,730 @@
+html,body, .main{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-size: 100px;
+}
+.swiper-container{
+    width: 100% ;
+    height: 100%;
+}
+.slide1{
+
+    width: 100%;
+    height: 100%;
+    background: url("../img/ciye.jpg")no-repeat;
+    background-size: 100% 100%;
+}
+
+.slide1 .gif img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
+.slide1 .gif1 img{
+    width: 100%;
+    height: 20%;
+    opacity: 0.1;
+}
+.slide1 .gif2 img{
+    width: 100%;
+    height: 40%;
+    opacity: 0;
+    position: absolute;
+    margin-top: 3.4rem;
+
+}
+#page1 .gif2 img{
+    -webkit-animation:bg 0.5s infinite 1s alternate ;
+}
+@-webkit-keyframes bg {
+    0% {opacity: 0;}
+    100%{opacity: 1;}
+}
+.slide2{
+    background: url("../img/ciye.jpg")no-repeat;
+    background-size: 100% 100%;
+}
+.slide3{
+    background: url("../img/ciye.jpg")no-repeat;
+    background-size: 100% 100%;
+}
+.slide4{
+    background: url("../img/zuihouyiye.png")no-repeat;
+    background-size: 100% 100%;
+}
+
+.slide1 img{
+    position: absolute;
+}
+.slide1 .resume{
+    width: 100%;
+    height: 2rem;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+.slide1 .resume span{
+    font-size: 1rem;
+    font-weight: 900;
+    color: rgb(15, 184, 143);
+}
+
+.slide1 .Photo{
+    margin-left: 1.8rem;
+    width: 2.7rem;
+    height: 2.7rem;
+    border: 2px solid rgb(15, 184, 143);
+    border-radius: 50%;
+    margin-top: 1rem;
+    background: url("../img/我文.jpg")no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    opacity: 0;
+
+}
+#page1 .Photo{
+    opacity: 1;
+    -webkit-animation: bounceInUp 1s linear 0s 1 both;
+    animation: bounceInUp 1s linear 0s 1 both;
+}
+
+.slide1 span{
+    display: block;
+    height: 1.3rem;
+    line-height: 1.3rem ;
+}
+.slide1 .web{
+    font-size: 30px;
+    color: #FFFFFF;
+    text-align: center;
+    opacity: 0;
+}
+#page1 .web{
+    opacity: 1;
+    -webkit-animation: bounceInUp 2s linear 0s 1 both;
+    animation: bounceInUp 2s linear 0s 1 both;
+}
+.slide1 .name{
+    text-align: center;
+    font-size: 20px;
+    color: #FFFFFF;
+    opacity: 0;
+}
+#page1 .name{
+    opacity: 1;
+    -webkit-animation: bounceInUp 3s linear 0s 1 both;
+    animation: bounceInUp 3s linear 0s 1 both;
+}
+.slide2 .frame{
+
+    display: inline-block;
+    width: 5.4rem;
+    height: 8.3rem;
+    margin-left: 0.5rem;
+    margin-top: -5.8rem;
+    opacity: 0;
+
+}
+#page2 .frame{
+    opacity: 1;
+    -webkit-animation: zoomInUp 1.5s linear 0.6s 1 both;
+    animation: zoomInUp 1.5s linear 0.6s 1 both;
+}
+.slide2 .frame img{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.slide2 .frame1{
+
+    width: 100%;
+    height: 70%;
+    margin-left: -0.2rem;
+    display: inline-block;
+    opacity: 0;
+}
+#page2 .frame1{
+    opacity: 1;
+    -webkit-animation: bounceInLeft 1.5s linear 0s 1 both;
+    animation: bounceInLeft 1.5s linear 0s 1 both;
+}
+.slide2 .frame1 img{
+    width: 100%;
+    height: 100%;
+}
+.slide2 .frame2{
+    width: 2rem;
+    height: 0.5rem;
+    position: absolute;
+    top: 0.86rem;
+    left: 1.5rem;
+    opacity: 0;
+}
+#page2 .frame2{
+    opacity: 1;
+
+    -webkit-animation: tada 1s infinite 1s;
+    animation: tada 1s infinite 1s ;
+}
+.slide2 .frame2 img{
+    width: 100%;
+    height: 100%;
+}
+.slide2 .frame3{
+    width: 100%;
+    height: 100%;
+}
+.slide2 .frame3 img{
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    top: 0.2rem;
+    right: 0.5rem;
+    opacity: 0;
+}
+#page2 .frame3 img{
+    opacity: 1;
+    animation: move 3s infinite linear;
+}
+.slide2 .frame4{
+    width: 5rem;
+    height: 7rem;
+    position: absolute;
+    top: 3rem;
+    left: 0.89rem;
+
+}
+.slide2 .frame4 div{
+    width: 4.5rem;
+    height: 0.8rem;
+    line-height: 7rem;
+    border: 0.01rem solid #000;
+    border-radius: 0.5rem;
+    margin: 0.27rem 0;
+    position: relative;
+    background: rgba(0, 0, 0, 0.5)
+}
+
+.slide2 .frame4 div span{
+    position: absolute;
+    line-height: 0.8rem;
+    font-size: 0.3rem;
+    color: #FFFFFF;
+    margin-left: 0.2rem;
+}
+.slide2 .frame4 div{
+    opacity: 0;
+}
+#page2 .frame4 div:nth-child(1){
+    opacity: 1;
+    -webkit-animation: bounceInLeft 1.5s linear 1.5s 1 both;
+    animation: bounceInLeft 1.5s linear 1.5s 1 both;
+}
+#page2 .frame4 div:nth-child(2){
+    opacity: 1;
+    -webkit-animation: bounceInRight 1.5s linear 2s 1 both;
+    animation: bounceInRight 1.5s linear 2s 1 both;
+}
+#page2 .frame4 div:nth-child(3){
+    opacity: 1;
+    -webkit-animation: bounceInLeft 1.5s linear 2.5s 1 both;
+    animation: bounceInLeft 1.5s linear 2.5s 1 both;
+}
+#page2 .frame4 div:nth-child(4){
+    opacity: 1;
+    -webkit-animation: bounceInRight 1.5s linear 3s 1 both;
+    animation: bounceInRight 1.5s linear 3s 1 both;
+}
+#page2 .frame4 div:nth-child(5){
+    opacity: 1;
+    -webkit-animation: bounceInLeft 1.5s linear 3.5s 1 both;
+    animation: bounceInLeft 1.5s linear 3.5s 1 both;
+}
+#page2 .frame4 div:nth-child(6){
+    opacity: 1;
+    -webkit-animation: bounceInRight 1.5s linear
+    4s 1 both;
+    animation: bounceInRight 1.5s linear 4s 1 both;
+}
+
+.slide3 .san{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    opacity: 0.7;
+}
+.slide3 .san img{
+    width: 100%;
+    height: 100%;
+}
+.slide3 .san1{
+    width: 3.27rem;
+    height: 2.79rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+
+}
+#page3 .san1{
+    opacity: 1;
+    -webkit-animation: bounceInDown 1.5s linear 1s 1 both;
+    animation: bounceInDown 1.5s linear 1s 1 both;
+}
+.slide3 .san1 img{
+    width: 100%;
+    height: 100%;
+}
+.slide3 .san2{
+    width: 5.5rem;
+    height: 6rem;
+    position: absolute;
+    top: 3rem;
+    left: 0.5rem;
+    text-align: center;
+    opacity: 0;
+}
+#page3 .san2{
+    opacity: 1;
+    -webkit-animation: rotateIn 1s linear 1.8s 1 both;
+    animation: rotateIn 1s linear 1.8s 1 both;
+}
+.slide3 .san2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.slide3 .san3{
+    width: 13rem;
+    height: 13rem;
+    position: absolute;
+    bottom: -7.5rem;
+    overflow: hidden;
+    left: -3.2rem;
+    opacity: 0;
+}
+#page3 .san3{
+    opacity: 1;
+    animation: move 5s infinite linear;
+}
+
+@keyframes move {
+ 0%{
+    transform: rotate(0deg);
+}
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.slide3 .san3 img{
+    width: 100%;
+    height: 100%;
+}
+.slide3 .san4{
+    width: 3rem;
+    height: 1rem;
+    position: absolute;
+    top: 2.1rem;
+    left: 0.5rem;
+    z-index: 1;
+    opacity: 0;
+}
+#page3 .san4{
+    opacity: 1;
+    -webkit-animation: bounceInLeft 0.5s linear 0.5s 1 both;
+    animation: bounceInLeft 0.5s linear 0.5s 1 both;
+}
+.slide3 .san4 img{
+    width: 100%;
+    height: 100%;
+}
+
+.slide3 .san5{
+    width: 2rem;
+    height: 0.5rem;
+    position: absolute;
+    top: 1.35rem;
+    left: 1.2rem;
+    z-index: 1;
+    opacity: 0;
+}
+#page3 .san5{
+    opacity: 1;
+    -webkit-animation: tada 1s infinite 1s;
+    animation: tada 1s infinite 1s ;
+}
+
+
+.slide3 .san5 img{
+    width: 100%;
+    height: 100%;
+}
+.slide3 .san7{
+    width: 100%;
+    height: 70%;
+    top: 0;
+    left: -0.9rem;
+    position: absolute;
+    display: inline-block;
+    opacity: 0;
+}
+#page3 .san7{
+    opacity: 1;
+    -webkit-animation: bounceInLeft 1.5s linear 0s 1 both;
+    animation: bounceInLeft 1.5s linear 0s 1 both;
+}
+.slide3 .san7 img{
+    width: 100%;
+    height: 100%;
+}
+.slide3 .words span{
+    font-size: .5rem;
+    color: #FFFFFF;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+
+}
+.slide3 .san6{
+    width: 100%;
+    height: 100%;
+}
+.slide3 .words1 span{
+    font-size: 0.37rem;
+    margin-top: 4.2rem;
+    margin-left: 1rem;
+    opacity: 0;
+}
+#page3 .words1 span{
+    opacity: 1;
+    -webkit-animation: bounceIn 1.5s linear 3.2s 1 both;
+    animation: bounceIn 1.5s linear 3.2s 1 both;
+}
+
+.slide3 .san6 img{
+    width: 1.7rem;
+    height: 0.9rem;
+    position: absolute;
+    top: 4.3rem;
+    left: 1rem;
+    z-index: 1;
+    opacity: 0;
+}
+#page3 .san6 img{
+    opacity: 1;
+    -webkit-animation: bounceInRight 1.5s linear 2.5s 1 both;
+    animation: bounceInRight 1.5s linear 2.5s 1 both;
+}
+.slide3 .san8{
+    width: 100%;
+    height: 100%;
+}
+.slide3 .san8 img{
+    width: 3.5rem;
+    height: 1.5rem;
+    position: absolute;
+    top: 5rem;
+    left: 1.5rem;
+    opacity: 0;
+}
+#page3 .san8 img{
+    opacity: 1;
+    -webkit-animation: fadeIn 1.5s linear 6.1s 1 both;
+    animation: fadeIn 1.5s linear 6.1s 1 both;
+}
+.slide3 .words2 span{
+    top: 5rem;
+    left: 2rem;
+    font-size: 0.7rem;
+    opacity: 0;
+}
+#page3 .words2 span{
+    opacity: 1;
+    -webkit-animation: bounceIn 1.5s linear 6.5s 1 both;
+    animation: bounceIn 1.5s linear 6.5s 1 both;
+}
+.slide3 .san9{
+    width: 100%;
+    height: 100%;
+ }
+.slide3 .san9 img{
+    width: 1.7rem;
+    height: 1rem;
+    position: absolute;
+    top: 3.5rem;
+    left: 3rem;
+    opacity: 0;
+}
+#page3 .san9 img{
+    opacity: 1;
+    -webkit-animation: bounceInLeft 1.5s linear 3.3s 1 both;
+    animation: bounceInLeft 1.5s linear 3.3s 1 both;
+}
+.slide3 .words3 span{
+    top: 3.5rem;
+    left: 2.8rem;
+    font-size: 0.4rem;
+    opacity: 0;
+}
+#page3 .words3 span{
+    opacity: 1;
+    -webkit-animation: bounceIn 1.5s linear 4s 1 both;
+    animation: bounceIn 1.5s linear 4s 1 both;
+}
+.slide3 .san0{
+    width: 100%;
+    height: 100%;
+}
+.slide3 .san0 img{
+    width: 2.5rem;
+    height: 1.5rem;
+    position: absolute;
+    top: 6.2rem;
+    left: 3rem;
+    opacity: 0;
+}
+#page3 .san0 img{
+    opacity: 1;
+    -webkit-animation: bounceInLeft 1.5s linear 5s 1 both;
+    animation: bounceInLeft 1.5s linear 5s 1 both;
+}
+.slide3 .words4 span{
+    top: 6.3rem;
+    left: 3.3rem;
+    font-size: 0.6rem;
+    opacity: 0;
+}
+#page3 .words4 span{
+    opacity: 1;
+    -webkit-animation: bounceIn 1.5s linear 5.8s 1 both;
+    animation: bounceIn 1.5s linear 5.8s 1 both;
+}
+.slide3 .san10{
+    width: 100%;
+    height: 100%;
+}
+.slide3 .san10 img{
+    width: 3rem;
+    height: 1.5rem;
+    position: absolute;
+    top: 6.8rem;
+    left: 0.5rem;
+    opacity: 0;
+}
+#page3 .san10 img{
+    opacity: 1;
+    -webkit-animation: bounceInRight 1.5s linear 4.2s 1 both;
+    animation: bounceInRight 1.5s linear 4.2s 1 both;
+}
+.slide3 .words5 span{
+    top: 6.9rem;
+    left: 1.3em;
+    font-size: 0.7rem;
+    opacity: 0;
+}
+#page3 .words5 span{
+    opacity: 1;
+    -webkit-animation: bounceIn 1.5s linear 5s 1 both;
+    animation: bounceIn 1.5s linear 5s 1 both;
+}
+.slide4 .last{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.slide4 .last img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.slide4 .last1{
+    width: 100%;
+    height: 100%;
+}
+.slide4 .last1 img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -2rem;
+    opacity: 0;
+}
+#page4 .last1 img{
+    opacity: 1;
+    -webkit-animation:bg 0.5s infinite 0s alternate;
+}
+
+
+
+.slide4 .last2 {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    opacity: 0;
+}
+#page4 .last2{
+    opacity: 1;
+    -webkit-animation: bounceInDown 1.8s linear 0s 1 both;
+    animation: bounceInDown 1.8s linear 0s 1 both;
+}
+.slide4 .last2 span{
+    font-size: 1rem;
+    color: rgb(15, 184, 143);
+    font-weight: 900;
+    text-align: center;
+
+}
+
+
+.slide4 .last3{
+   width: 100%;
+    height: 100%;
+}
+.slide4 .last3 img{
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    top: 3.5rem;
+    left: 19%;
+    opacity: 0;
+}
+#page4 .last3 img{
+    opacity: 1;
+    -webkit-animation: zoomIn 1.5s linear 0s 1 both;
+    animation: zoomIn 1.5s linear 0s 1 both;
+}
+.slide4 .last4{
+    width: 100%;
+    height: 100%;
+
+}
+.slide4 .last4 span{
+    font-size: 0.5rem;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 1.6rem;
+    left: 0.2rem;
+    opacity: 0;
+}
+#page4 .last4 span{
+    opacity: 1;
+    -webkit-animation: bounceInUp 1.5s linear 1s 1 both;
+    animation: bounceInUp 1.5s linear 1s 1 both;
+}
+
+
+
+
+
+
+
+
+.music{
+    width: 0.6rem;
+    height: 0.6rem;
+    background: url("../audio/music.svg") no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    right: 0.2rem;
+    top: 0.2rem;
+    z-index: 2;
+    opacity: 0;
+}
+
+.musicCur{
+    -webkit-animation: move 1s infinite linear both;
+    animation: move 1s infinite linear both;
+}
+@-webkit-keyframes move {
+    0%{
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+    }
+}
+@keyframes move {
+    0%{
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
